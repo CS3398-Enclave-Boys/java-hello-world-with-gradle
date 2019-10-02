@@ -28,19 +28,20 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World!");
    }
    
+   
    @Test
-   public void newtestWMGreeterPass() {
+   public void newtestESGreeterPass() {
        g.setName("Boris");
        assertEquals(g.getName(),"Boris");
        assertEquals(g.sayHello(),"Hello Boris!");
    }
-   /*
+   
    @Test
-   public void newtestWMGreeterFail() {
+   public void newtestESGreeterFail() {
        g.setName("Sandvich");
        assertEquals(g.getName(),"Boris");
        assertEquals(g.sayHello(),"Hello Boris!");
    }
-   */
+   
    
 }
